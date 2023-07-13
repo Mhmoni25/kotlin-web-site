@@ -1183,13 +1183,14 @@
     classnames "^2.2.6"
     core-js "^3.9.1"
 
-"@rescui/button@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@rescui/button/-/button-0.3.0.tgz#8666e1832c7974dfb58c8fd00f7557584f5f58eb"
-  integrity sha512-QuPwECqpTyJLay8acwYPFygHuLRt6dpJKYQwMs2bN/5r++81JyAF4Wg+AZ6nuMKrKRKzRYjP9iHSjaEUKFtveA==
+"@rescui/button@^0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@rescui/button/-/button-0.9.0.tgz#f6d70050252411d4902e42b2013cdee00225029f"
+  integrity sha512-3RurdqBiNiXNVSWv37MkikmKi7HCTuGT4zzDHEcRzOPkSj4pC+R5amB4Mf+sn/JaY9F0C+C5mYjo6kSyyQW9dw==
   dependencies:
     "@babel/runtime-corejs3" "^7.14.0"
-    "@rescui/icons" "^0.2.0"
+    "@rescui/icons" "^0.11.0"
+    "@rescui/use-resize-observer" "^0.1.3"
     classnames "^2.2.6"
     core-js "^3.9.1"
 
@@ -1231,10 +1232,10 @@
     classnames "^2.2.6"
     core-js "^3.9.1"
 
-"@rescui/icons@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@rescui/icons/-/icons-0.2.0.tgz#dc019f29164d63cab7bd39148e86c1660cc01713"
-  integrity sha512-w7TJLzmF0TCYWrL99zTFZ27DaZQILO8SJ7SEDCQjCemad5t0js6NtCh3+DZ7l+BLUyeGW1hP7QjxvxqKBYRHMA==
+"@rescui/icons@^0.11.0":
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/@rescui/icons/-/icons-0.11.0.tgz#4ad77e10120f2071289b167bc940eb8000a124bb"
+  integrity sha512-IuuO1hbRCIg2SyEP6eB1BPYkzGn2kaVe7wt4UGNP4l/QY8klGAjGLprz2rh8lId/mX0iVUlwsCyomJxgiekxzA==
   dependencies:
     "@babel/runtime-corejs3" "^7.14.0"
     classnames "^2.2.6"
@@ -1259,15 +1260,15 @@
     classnames "^2.2.6"
     core-js "^3"
 
-"@rescui/tab-list@0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@rescui/tab-list/-/tab-list-0.3.0.tgz#a9408064bb8657f298bf1c1780d9c32470e3f640"
-  integrity sha512-1NTkBi1fk0SsuQIcs+AdKoVaUvvPVVD/RLfDX0ZlPxtRFpzUppgpfN2jST0Bz2B8Wvj0TuystQAhHSoi4VL8uQ==
+"@rescui/tab-list@0.10.0":
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/@rescui/tab-list/-/tab-list-0.10.0.tgz#0c9420e9c814be78b3268254c6e132e08e1323d3"
+  integrity sha512-imFreIikJQxfLJdG5MNrp0UJsc0CCafnvmBFk3eRYRuHaqFVzD0cEaaI5sWqck2wPGVCyUPBd6iPmHpDEBw7Cg==
   dependencies:
     "@babel/runtime-corejs3" "^7.14.0"
     "@juggle/resize-observer" "3.3.0"
-    "@rescui/button" "^0.3.0"
-    "@rescui/icons" "^0.2.0"
+    "@rescui/button" "^0.9.0"
+    "@rescui/icons" "^0.11.0"
     classnames "^2.2.6"
     core-js "^3.9.1"
 
@@ -1296,6 +1297,14 @@
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/@rescui/ui-contexts/-/ui-contexts-0.1.3.tgz#82bc7e14ba7b3b99a1aed4cff891e03312cf4b87"
   integrity sha512-9+2GyMCDVKGMC2KknsZmoiWgOBWAtGZ4xIoTUL4AN/DwfqIDCQ4vCO7SKcj1B1f6PgcFVJFyzTpohp8TcZsXdA==
+  dependencies:
+    "@babel/runtime-corejs3" "^7.14.0"
+    core-js "^3.9.1"
+
+"@rescui/use-resize-observer@^0.1.3":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@rescui/use-resize-observer/-/use-resize-observer-0.1.3.tgz#3d0d54541c89cfbed043f88ae36a36d4f1addc65"
+  integrity sha512-mQ9l7PGL8b7UONDSgtMBoBB1JH/68PwSVVf/w/D7UuhJpAJV5Rl5e+AB+xvI4FFNciAwi/SJs2nHL2ymO29cyQ==
   dependencies:
     "@babel/runtime-corejs3" "^7.14.0"
     core-js "^3.9.1"
